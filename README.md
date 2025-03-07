@@ -112,8 +112,10 @@ spring.security.oauth2.client.registration.google.scope=https://www.googleapis.c
 1. Clone the repository
 2. Configure Google API credentials in `application.properties`
 3. Run the application:
+   ```bash
    ./mvnw spring-boot:run
-4. Access the application at http://localhost:8080
+   ```
+5. Access the application at http://localhost:8080
 
 ## Security Considerations
 - OAuth2 security configuration
